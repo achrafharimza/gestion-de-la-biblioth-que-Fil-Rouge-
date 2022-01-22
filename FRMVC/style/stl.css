@@ -1,0 +1,919 @@
+body {
+  background-color: #02475e;
+}
+
+body .sidebard {
+  width: 245px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: black;
+  z-index: 100;
+}
+
+body .sidebard .sidebar-brand {
+  height: 90px;
+  padding: 1rem 0rem 1rem 2rem;
+  color: #fff;
+}
+
+body .sidebard .sidebar-menu {
+  border-top: 2px white solid;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+body .sidebard .sidebar-menu li {
+  width: 100%;
+  list-style: none;
+}
+
+body .sidebard .sidebar-menu li .active {
+  background: #810000;
+  color: white;
+  border-radius: 30px 0 0 30px;
+}
+
+body .sidebard .sidebar-menu li a {
+  padding: 20px 20px;
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* flex-direction: unset; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .sidebard .sidebar-menu li a:hover {
+  background: #fff;
+  color: black;
+  border-radius: 30px 0 0 30px;
+}
+
+body .contt {
+  margin-left: 245px;
+}
+
+body .contt .con {
+  min-height: 450px;
+  margin: 20px 20px;
+  padding: 20px 20px;
+  background-color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: FLEX;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px 8px;
+  color: white;
+}
+
+body .contt .con .zfa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px 50px;
+  margin-bottom: 50px;
+}
+
+body .contt .con .zfa form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px 50px;
+  margin-bottom: 50px;
+}
+
+body .contt .con .zfa form .form-group {
+  width: 350px;
+}
+
+body .contt .con h1 {
+  border: 2px SOLID #810000;
+  padding: 10px;
+}
+
+body .contt .con .Search {
+  background-image: url("https://www.w3schools.com/css/searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 20%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  float: right;
+  color: black;
+}
+
+body header {
+  height: 73px;
+  padding: 0 15px;
+  width: 100%;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header nav {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header nav ul {
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: contents;
+}
+
+body header nav ul li {
+  list-style: none;
+}
+
+body header nav ul li .activeN {
+  color: #810000;
+}
+
+@media screen and (max-width: 768px) {
+  body header nav ul li {
+    margin: 25px;
+  }
+}
+
+body header nav ul li a {
+  padding: 0 22px;
+  height: 65%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+body header nav ul li a:hover {
+  background-color: white;
+  border-radius: 3px;
+  color: black;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  body header nav {
+    display: block;
+    height: auto;
+    position: absolute;
+    z-index: 1000;
+    top: 72px;
+    right: 0;
+    background-color: black;
+  }
+}
+
+body header .menu {
+  color: white;
+  font-size: 30px;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  body header .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+body section {
+  height: auto;
+  width: 100%;
+  background-color: #02475e;
+  padding: 1px;
+  min-height: 493px;
+}
+
+body section .con1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: black;
+}
+
+body section .con1 .search {
+  background-color: #810000;
+  margin: 20px 5% 20px 0;
+  padding: 14px;
+}
+
+body section .con1 .ins {
+  width: 100%;
+  margin: 20px 0 20px 5%;
+  padding: 10px;
+  border: 1px #810000 solid;
+}
+
+body section .con {
+  margin: 20px 5%;
+  padding: 20px 10px;
+  background-color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: FLEX;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px 8px;
+}
+
+body section .con .catit {
+  background: #810000;
+  color: #fff;
+  font-weight: 800;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+body section .con .infozone {
+  width: 100%;
+  display: FLEX;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px 8px;
+}
+
+body section .con .infozone .catit {
+  background: #810000;
+  color: #fff;
+  font-weight: 800;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+body section .con .infozone .rof {
+  width: 250px;
+  padding: 5px;
+  background: black;
+  border: 2px solid white;
+}
+
+body section .con .infozone .rof .covv {
+  max-width: 100%;
+}
+
+body section .con .infozone .inft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 78%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  row-gap: 20px;
+}
+
+body section .con .infozone .inft .in1 {
+  width: 400px;
+  color: #810000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+body section .con .infozone .inft .in1 span {
+  color: white;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1321px) {
+  body section .con .infozone .inft .in1 {
+    text-align: center;
+  }
+}
+
+body section .con .infozone .inft .hrdiv {
+  border-right: 1px WHITE SOLID;
+}
+
+@media screen and (max-width: 1321px) {
+  body section .con .infozone .inft .hrdiv {
+    border-bottom: 1px WHITE SOLID;
+    width: 100%;
+  }
+}
+
+body section .con .infozone .inft .in2 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  padding: 20px;
+}
+
+body section .con .infozone .inft .in2 form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+body section .con .infozone .inft .in2 form .frm {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 5px 15px;
+  border: 1px white solid;
+  padding: 10px;
+}
+
+body section .con .infozone .inft .in2 form .frm .form-group {
+  width: 200px;
+}
+
+body section .con .infozone .inft .in2 form .bte {
+  background-color: #810000;
+  width: 150px;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+body section .con .infozone .inft .in2 form .bte:hover {
+  background: white;
+  color: #810000;
+}
+
+body section .con .infozone .inft .msgzone {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 5px 15px;
+  padding: 10px;
+}
+
+body section .con .zone {
+  width: 78%;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  body section .con .zone {
+    width: 100%;
+  }
+}
+
+body section .con .zone .crs {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+body section .con .zone .crs .cov {
+  max-width: 100%;
+}
+
+body section .con .zone .crs img {
+  float: right;
+}
+
+body section .con .zone .zone2 {
+  display: FLEX;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body section .con .zone .zone2 .catit {
+  background: #810000;
+  color: #fff;
+  font-weight: 800;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+body section .con .zone .zone2 .zone23 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px 100px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body section .con .zone .zone2 .zone23 .rof1 {
+  width: 250px;
+  margin-top: 20px;
+  padding: 5px;
+  background: black;
+  text-align: center;
+}
+
+body section .con .zone .zone2 .zone23 .rof {
+  width: 250px;
+  margin-top: 20px;
+  padding: 5px;
+  background: black;
+  border: 2px solid white;
+  text-align: center;
+}
+
+body section .con .zone .zone2 .zone23 .rof:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body section .con .zone .zone2 .zone23 .rof .cov1 {
+  max-width: 70%;
+  min-height: 76%;
+}
+
+body section .con .zone .zone2 .zone23 .rof .cov {
+  max-width: 70%;
+  min-height: 82%;
+}
+
+body section .con .zone .zone2 .zone23 .rof .tag {
+  display: inline;
+  float: left;
+  padding: 2px 5px;
+  width: auto;
+  background: #90e137;
+  color: #fff;
+  height: 23px;
+}
+
+body section .con .zone .zone2 .zone23 .rof .tag-side {
+  display: inline;
+  float: left;
+}
+
+body section .con .zone .zone2 .zone23 .rof hr {
+  margin: 7px auto;
+  border: 0;
+  border-top: 2px solid white;
+}
+
+body section .con .zone .zone2 .zone23 .rof .titre {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12%;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 115%;
+}
+
+body section .con .zone .zone2 .zone23 .rof .titre span {
+  color: black;
+  font-weight: bold;
+}
+
+body section .con .category {
+  width: 20%;
+}
+
+@media screen and (max-width: 768px) {
+  body section .con .category {
+    width: 80%;
+  }
+}
+
+body section .con .category .categ {
+  background-color: #810000;
+  color: white;
+  font-weight: 900;
+  border: none;
+  padding: 15px;
+  text-align: center;
+  font-size: larger;
+}
+
+body section .con .category ul {
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+body section .con .category a {
+  text-decoration: none;
+}
+
+body section .con .category a li {
+  display: block;
+  font-weight: 400;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  margin-left: -40px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+body section .con .category a li:hover {
+  color: black;
+  background-color: white;
+  opacity: 0.9;
+}
+
+body section .con .sidebar {
+  width: 20%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  body section .con .sidebar {
+    width: 80%;
+  }
+}
+
+body section .con .sidebar .pic {
+  text-align: center;
+  padding: 27px;
+  border-bottom: 1px solid black;
+}
+
+body section .con .sidebar .pic h4 {
+  font-weight: bold;
+}
+
+body section .con .sidebar .pic img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 4px solid #810000;
+}
+
+body section .con .sidebar .active {
+  background-color: #810000;
+}
+
+body section .con .sidebar a {
+  padding: 15px 20px;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+body section .con .sidebar a .active {
+  background-color: #810000;
+}
+
+body section .con .sidebar a:hover {
+  color: white;
+  background-color: #810000;
+  opacity: 0.6;
+}
+
+body section .con .zones {
+  width: 78%;
+  color: white;
+  border: 2px white solid;
+}
+
+@media screen and (max-width: 768px) {
+  body section .con .zones {
+    width: 100%;
+  }
+}
+
+body section .con .zones .zf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px 50px;
+}
+
+body section .con .zones .zf .form-group {
+  width: 350px;
+}
+
+body section .con .zones .zp {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px 50px;
+}
+
+body section .con .zones .zp .old .form-group {
+  width: 350px;
+}
+
+body section .con .zones .zp .newp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px 50px;
+}
+
+body section .con .zones .zp .newp .form-group {
+  width: 350px;
+}
+
+body section .con .zones .tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+  color: white;
+}
+
+body section .con .zones .upd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 25px 0px 11px;
+}
+
+body section .con .zones .upd button {
+  background-color: #810000;
+  width: 180px;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+body section .con .zones .upd button:hover {
+  background: white;
+  color: #810000;
+}
+
+body section .con .reem {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 10px -23px 10px;
+}
+
+body section .con .reem .active {
+  background-color: #810000;
+}
+
+body section .con .reem a {
+  background-color: white;
+  padding: 15px 20px;
+  border-right: 2px solid black;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+body section .con .zones2 {
+  color: white;
+  border: 2px white solid;
+  width: 100%;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+body section .con .zones2 .allz2 .tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+  color: white;
+}
+
+body section .con .zones2 .allz2 table {
+  color: white;
+}
+
+body .box {
+  padding: 10px;
+  width: 450px;
+  background-color: black;
+  margin: 80px auto;
+  opacity: 0.9;
+  color: white;
+  text-align: center;
+  border: 3px #fff solid;
+}
+
+body .box .btn2 {
+  background-color: white;
+  color: #810000;
+  font-size: 100%;
+}
+
+body .box .btn2:hover {
+  background: #810000;
+  color: white;
+}
+
+body .box .user-box {
+  margin: 30px;
+}
+
+body .box .user-box button {
+  background-color: #810000;
+  width: 80%;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+body .box .user-box button:hover {
+  background: white;
+  color: #810000;
+}
+
+body .box .user-box input {
+  width: 80%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+body footer {
+  background-color: black;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 29px;
+}
+
+body footer .sec {
+  width: 480px;
+  text-align: center;
+  border-bottom: 1px #810000 solid;
+}
+
+body footer .sec div {
+  display: FLEX;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+body footer .sec div a {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+body footer .sec h3 {
+  color: #810000;
+}
+/*# sourceMappingURL=stl.css.map */
